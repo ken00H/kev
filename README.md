@@ -48,6 +48,9 @@ The [Hugging Face Space](https://huggingface.co/spaces/jaredpalmer/kev) runs Kev
 
 ### Run It Locally
 
+> [!WARNING]
+> `pip install kev` installs an unrelated project (the K.E.V. ORM). Kev is not on PyPI — install from source as below.
+
 You'll need Python 3.12 or 3.13 and [uv](https://docs.astral.sh/uv/). The repo's `.python-version` makes `uv sync` use 3.13; torch has no wheels for 3.14 yet.
 
 ```bash
